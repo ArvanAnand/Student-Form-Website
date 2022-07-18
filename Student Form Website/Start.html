@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8" >
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>STUDENT DETAILS</title>
+      <!--- Using Link To CSS -->
+      <link rel="stylesheet" href="looks.css">
+</head>
+<body>
+      <div class="banner">
+         <div class="navbar">
+                  <img src="images/MITWPUlogo.jpg" class="logo">
+                  <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#enquiry">Enquiry</a></li>
+
+                  </ul>
+            </div>
+            <div class="content">
+                  <h1>MITWPU STUDENT DETAIL</h1>
+                  <p>MIT WPU is the topmost famous college in Pune, Pune which offers state-of-the-art education and outstanding campus placement.
+                  <br> It is one of the best colleges across Pune for Engineering, Arts, Reserach, and Commerce.</p>
+            <div>
+                  <button type="button"><span></span>ENROLL</button>
+
+            </div>
+      </div>
+      </div>
+      <section class="enquiry" id="enquiry">
+            <div class="container">
+                  <h1>STUDENTS DETAILS FORM</h1>
+                  <form action="https://formsubmit.co/6a6ba0c2abb65e8528251c79631df812" method="POST">
+                        <input type="text" class="input" name="Name" placeholder="Full Name" required>
+                        <input type="email" class="input" name="Email" placeholder="Email" required>
+                        <input type="contact" class="input" name="Contact" placeholder="Contact" required><br/>
+                        <label><br/>Date of Birth:</label>
+                        <input type="date" class="input" name="Date" placeholder="Date Of Birth" required><br/>
+
+                        <label><br/>Gender:</label>    <label>Male</label> <input type="radio" name="Gender" value="Male" />  <label>Female</label> <input type="radio" name="Gender" value="Female" />
+                        <br/>
+                        <label><br/>Courses ↓</label>
+                        <select class="input" name="Courses" placeholder="Course" required>
+                              <option>ENGINEERING</option>
+                              <option>MBA</option>
+                              <option>BBA</option>
+                              <option>BACHELOR SCIENCES</option>
+                              <option>DESIGNNG</option>
+                              <option>PGDM</option>
+                        </select>
+                        <input type="city" class="input" name="City" placeholder="City" required>
+                        <input type="pincode" class="input" name="Pincode" placeholder="Pincode" required>
+                        <input type="state" class="input" name="State" placeholder="State" required>
+                        <input type="country" class="input" name="Country" placeholder="Country" required>
+                        <textarea type="text" class="input txt" placeholder="Address" required></textarea>
+                        <button type="submit" class="form btn">Send</button>
+                  </form>
+            </div>
+
+      </section>
+</body>
+</html>
